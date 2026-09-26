@@ -1,0 +1,80 @@
+body {
+    background: #f8f5fb;
+    color: #59446f;
+}
+
+.navbar {
+    background: #eee8f6;
+    padding: 18px;
+}
+
+.navbar a {
+    color: #59446f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.upload-page {
+    max-width: 800px;
+    padding: 55px 15px;
+}
+
+.upload-card {
+    background: #eee8f6;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px #ddd2eb;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.subtitle {
+    text-align: center;
+    color: #81798c;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: 600;
+    margin: 15px 0 7px;
+}
+
+.form-control {
+    border: 1px solid #ddd2eb;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+small {
+    display: block;
+    color: #81798c;
+    margin: 8px 0 25px;
+}
+
+.upload-btn, .back-btn {
+    display: inline-block;
+    background: #8064a2;
+    color: white;
+    border: 0;
+    border-radius: 12px;
+    padding: 11px 20px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.upload-btn:hover, .back-btn:hover {
+    background: #fff1b8;
+    color: #59446f;
+}
+
+.back-btn {
+    margin-top: 15px;
+    background: #cbb9df;
+}
